@@ -8,6 +8,8 @@ import TreeView from './components/tree-view/index.jsx';
 import menus from './components/tree-view/data.js'; 
 import QRCodeGenerator from './components/qr-code-generator/index.jsx';
 import LightDarkMode from './components/light-dark-mode/index.jsx';
+import ScrollIndicator from './components/scroll-indicator/index.jsx';
+import TabTest from './components/custom-tabs/tabs-test.jsx';
 
 
 
@@ -46,8 +48,18 @@ function App() {
         <LightDarkMode/>
       } */}
 
-      {
+      {/* {
         <LightDarkMode/>
+      } */}
+
+      {/* {
+        <ScrollIndicator
+          url={'https://dummyjson.com/products?limit=100'}
+        />
+        } */}
+      
+      {
+        <TabTest/>
       }
     </div>
   );
