@@ -1,0 +1,16 @@
+.tic-tac-toe-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; 
+    margin: 100px auto;
+}
+
+.square {
+    border: 1px solid red; 
+    font-size: 40px;
+    height: 100px; 
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    box-sizing: border-box;
+}
